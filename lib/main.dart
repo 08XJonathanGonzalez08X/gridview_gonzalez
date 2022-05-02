@@ -58,9 +58,9 @@ class _MyHomePageState extends State<MyHomePage> {
                 fit: BoxFit.cover,
               );
             },
-            childCount: 8,
+            childCount: 200,
           ),
-          padding: EdgeInsets.all(200),
+          padding: EdgeInsets.all(10),
           shrinkWrap: true,
         ));
   }
