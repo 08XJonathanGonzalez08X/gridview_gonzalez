@@ -42,7 +42,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 fit: BoxFit.cover,
               );
             },
-            childCount: 17,
+            childCount: 16,
           ),
           padding: EdgeInsets.all(10),
           shrinkWrap: true,
