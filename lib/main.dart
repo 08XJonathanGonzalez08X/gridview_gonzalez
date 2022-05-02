@@ -8,20 +8,19 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-        title: 'Ejemplo.gretview', //pestaña en web
-        debugShowCheckedModeBanner: false,
+        title: 'Flutter App Learning',
         theme: ThemeData(
           primarySwatch: Colors.green,
-        ), //sistema global
-        home: const MyHomePage());
+        ),
+        home: MyHomePage());
   }
-} // widget sin estado
+}
 
 class MyHomePage extends StatefulWidget {
-  const MyHomePage({Key? key}) : super(key: key);
+  MyHomePage({Key? key}) : super(key: key);
   @override
   _MyHomePageState createState() => _MyHomePageState();
-} //widget con estado
+}
 
 class _MyHomePageState extends State<MyHomePage> {
   List<String> images = [
