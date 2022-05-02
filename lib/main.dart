@@ -60,7 +60,7 @@ class _MyHomePageState extends State<MyHomePage> {
             },
             childCount: 8,
           ),
-          padding: EdgeInsets.all(10),
+          padding: EdgeInsets.all(200),
           shrinkWrap: true,
         ));
   }
