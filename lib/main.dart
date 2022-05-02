@@ -54,15 +54,22 @@ class _MyHomePageState extends State<MyHomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          title: const Text("Flutter GridView"),
+          title: Text("Flutter GridView"),
         ),
-        body: GridView.builder(
-          itemCount: images.length,
-          itemBuilder: (BuildContext context, int index) {
-            return Image.asset(images[index], fit: BoxFit.cover);
-          },
-          gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: 3, mainAxisSpacing: 10, crossAxisSpacing: 10),
-          padding: const EdgeInsets.all(100),
+        body: GridView.custom(
+          gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+            crossAxisCount: 2,
+          ),
+          childrenDelegate: SliverChildBuilderDelegate(
+            (BuildContext, index) {
+              return Image.asset(
+                images[index],
+                fit: BoxFit.cover,
+              );
+            },
+            childCount: 8,
+          ),
+          padding: EdgeInsets.all(10),
           shrinkWrap: true,
         ));
   }
