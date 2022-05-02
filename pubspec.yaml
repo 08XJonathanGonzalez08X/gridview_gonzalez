@@ -52,6 +52,22 @@ flutter:
    - assets/images/volante.webp
    - assets/images/lilo.jpg
    - assets/images/lolio.webp
+   - "assets/images/descarga.jpg",
+   - "assets/images/autoo.jpg",
+   - "assets/images/lal.jpg",
+   - "assets/images/puerta.webp",
+   - "assets/images/uber.webp",
+   - "assets/images/volante.webp",
+   - "assets/images/lilo.jpg",
+   - "assets/images/lolio.webp",
+   - "assets/images/descarga.jpg",
+   - "assets/images/autoo.jpg",
+   - "assets/images/lal.jpg",
+   - "assets/images/puerta.webp",
+   - "assets/images/uber.webp",
+   - "assets/images/volante.webp",
+   - "assets/images/lilo.jpg",
+   - "assets/images/lolio.webp",
   #  - images/a_dot_ham.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see

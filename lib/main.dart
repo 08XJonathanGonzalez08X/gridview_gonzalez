@@ -33,6 +33,22 @@ class _MyHomePageState extends State<MyHomePage> {
     "assets/images/volante.webp",
     "assets/images/lilo.jpg",
     "assets/images/lolio.webp",
+    "assets/images/descarga.jpg",
+    "assets/images/autoo.jpg",
+    "assets/images/lal.jpg",
+    "assets/images/puerta.webp",
+    "assets/images/uber.webp",
+    "assets/images/volante.webp",
+    "assets/images/lilo.jpg",
+    "assets/images/lolio.webp",
+    "assets/images/descarga.jpg",
+    "assets/images/autoo.jpg",
+    "assets/images/lal.jpg",
+    "assets/images/puerta.webp",
+    "assets/images/uber.webp",
+    "assets/images/volante.webp",
+    "assets/images/lilo.jpg",
+    "assets/images/lolio.webp",
   ]; // lista de imagenes
   @override
   Widget build(BuildContext context) {
