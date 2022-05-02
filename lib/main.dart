@@ -62,7 +62,7 @@ class _MyHomePageState extends State<MyHomePage> {
             return Image.asset(images[index], fit: BoxFit.cover);
           },
           gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(crossAxisCount: 3, mainAxisSpacing: 10, crossAxisSpacing: 10),
-          padding: const EdgeInsets.all(30),
+          padding: const EdgeInsets.all(100),
           shrinkWrap: true,
         ));
   }
